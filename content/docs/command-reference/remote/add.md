@@ -369,13 +369,15 @@ $ dvc remote add -d myremote \
 
 ### Click for OSF
 
-An [Open Science Framework](https://www.cos.io/products/osf) account is needed to use
-[OSF storage](https://help.osf.io/hc/en-us/articles/360054528874). 
+An [Open Science Framework](https://www.cos.io/products/osf) account is needed
+to use [OSF storage](https://help.osf.io/hc/en-us/articles/360054528874).
 
 ```dvc
 dvc remote add myremote osf://osf.io/path/to/dir
 ```
+
 To work with OSF you need to specify several parameters:
+
 - user
 - project
 - password
